@@ -5,4 +5,7 @@
     $password = '';
     $dbName = 'pdoposts';
 
+    // Set datasource name
+    $dsn = 'mysql:host=' . $host . ';dbname='. $dbname;
+ 
 ?>
