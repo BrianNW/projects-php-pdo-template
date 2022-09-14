@@ -13,5 +13,10 @@
 
     // PDO query
     $stmt = $pdo->query('SELECT * FROM posts');
+
+    // Check if row = statement, then fetch results
+    while($row = $stmt->fetch()) {
+        echo $row['title']. '<br>';
+    }
  
 ?>
