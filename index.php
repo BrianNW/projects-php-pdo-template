@@ -11,4 +11,7 @@
     // Create PDO instance
     $pdo = new PDO($dsn, $user, $password);
 
+    // PDO query
+    $stmt = $pdo->query('SELECT * FROM posts');
+ 
 ?>
