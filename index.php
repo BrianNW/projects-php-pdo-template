@@ -3,7 +3,7 @@
     $host = 'localhost';
     $user = 'root';
     $password = '';
-    $dbName = 'pdoposts';
+    $dbname = 'pdoposts';
 
     // Set datasource name
     $dsn = 'mysql:host=' . $host . ';dbname='. $dbname;
